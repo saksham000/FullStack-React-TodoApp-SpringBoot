@@ -38,6 +38,10 @@ function ListTodoComponent() {
     navigate(`/todo/${id}`)
   }
 
+  function addNewTodo() {
+    navigate(`/todo/-1`)
+  }
+
   return (
     <div className="container">
       <h1>Things You want to do !</h1>
@@ -79,6 +83,9 @@ function ListTodoComponent() {
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="btn btn-success m-5" onClick={addNewTodo}>
+            Add new Todo
       </div>
     </div>
   );
