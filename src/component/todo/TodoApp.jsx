@@ -14,7 +14,7 @@ function AuthRoute({ children }) {
 
   if (authContext.isAuth) return children;
 
-  return <Navigate to={"/"} />;
+  return <Navigate to="/" />;
 }
 
 export default function TodoApp() {
