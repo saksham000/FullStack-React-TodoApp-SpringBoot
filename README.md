@@ -1,0 +1,1 @@
+This is a FullStack TodoApp in which i have used React for frontend and springboot for backend and the app is fully secured with JWT and spring security the is also Using MySQL server. For the Server i have used Docker.
